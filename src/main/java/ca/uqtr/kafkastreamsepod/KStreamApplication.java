@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KafkaStreamsEpodApplication {
+public class KStreamApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(KafkaStreamsEpodApplication.class, args);
+        SpringApplication.run(KStreamApplication.class, args);
     }
 
 }
